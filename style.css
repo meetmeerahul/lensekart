@@ -1,0 +1,691 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    position: fixed;
+    opacity: 100%;
+    background-color: white;
+    width: 100%;
+}
+
+.top-nav {
+    padding: 10px 10px;
+}
+
+.top-nav-link {
+    font-size: 13px;
+    color: #000042;
+    text-decoration: none;
+    justify-content: center;
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+.middle-nav {
+    display: flex;
+}
+
+.nav-cell {
+    padding: 10px;
+}
+
+.search-box {
+    padding: 20px 0px 1px 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box input {
+    width: 380px;
+    outline: none;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgba(0, 0, 66, 0.5);
+    border-width: 1px;
+    width: 750px;
+    height: 20px;
+}
+
+.recent-search {
+    display: none;
+    position: absolute;
+    top: 88.5px;
+    width: 755px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 440px;
+    border: 1px solid;
+}
+
+.trending-search {
+    font-size: 25px;
+}
+
+.search-items {
+    padding-left: 10px;
+}
+
+.search-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large;
+    padding-left: 5px;
+}
+
+.search-item:hover {
+    background-color: #fbf5f5;
+}
+
+.search-box:focus-within .recent-search {
+    display: block;
+}
+
+.middle-nav-link {
+    font-size: 13px;
+    color: #000042;
+    text-decoration: none;
+    justify-content: center;
+    padding: 17px;
+    font-weight: bold;
+}
+
+.div-middle-nav-link {
+    padding-left: 1px;
+    padding-top: 27px;
+    font-weight: bold;
+}
+
+.bottom-nav {
+    display: flex;
+}
+
+.icon-img {
+    padding-right: 5px;
+    height: 15px;
+}
+
+.bottom-nav-links {
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.bottom-nav-link {
+    padding-right: 15px;
+    font-size: 13px;
+    color: #000042;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bottom-nav-link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.bottom-nav-btns {
+    padding-top: 12px;
+    padding-left: 220px;
+}
+
+.nav-img {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.categories {
+    display: flex;
+    padding-left: 3px;
+    padding-top: 200px;
+}
+
+.category-image {
+    height: 125px;
+    width: 225px;
+    padding-left: 20px;
+}
+
+.category-title {
+    padding-top: 10px;
+    color: #8a8888;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.category-link {
+    text-decoration: none;
+}
+
+.category-image:hover {
+    transform: scale(1.2);
+}
+
+#eye-glass {
+    padding-left: 91px;
+}
+
+#sun-glass {
+    padding-left: 91px;
+}
+
+#computer-glass {
+    padding-left: 73px;
+}
+
+#contact-lenses {
+    padding-left: 93px;
+}
+
+#power-sunglasses {
+    padding-left: 73px;
+}
+
+#progressive-lenseses {
+    padding-left: 75px;
+}
+
+.image-slider {
+    padding-top: 30px;
+    width: fit-content;
+}
+
+.slide-img {
+    width: 1500px;
+}
+
+.image-ad img {
+    height: 230px;
+    width: 1500px;
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.glass-trends {
+    display: flex;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wear-the-trend {
+    font-family: "Rajdhani-Medium";
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.wear-the {
+    font-size: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.trend {
+    font-size: 50px;
+    padding-left: 50px;
+}
+
+.trend-collecions {
+    padding-left: 50px;
+    font-weight: lighter;
+}
+
+.trend-icons {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    padding-top: 75px;
+    font-size: 70px;
+    padding-left: 50px;
+}
+
+.explore-items {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.explore-items {
+    height: 100px;
+    display: flex;
+}
+
+.explore-item {
+    height: 100px;
+    width: 200px;
+    padding-left: 50px;
+}
+
+.explore-item-image-name {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Futura-Medium";
+}
+
+#round {
+    padding-left: 120px;
+}
+
+#cat-eye {
+    padding-left: 111px;
+}
+
+.btn-class {
+    padding-left: 75px;
+}
+
+.explore-item-image-name-button {
+    background-color: #56b7c3;
+    height: 50px;
+    width: 140px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.btn-name {
+    padding-top: 15px;
+    padding-left: 28px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.extra-off {
+    padding-top: 70px;
+    padding-left: 04px;
+}
+
+.extra-off-image {
+    width: 1510px;
+}
+
+.explore-link {
+    text-decoration: none;
+}
+
+.explore-item-image-name-button:hover {
+    background-color: #56b7d9;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: black;
+}
+
+.line-heading {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.line-heading:before,
+.line-heading:after {
+    content: " ";
+    flex: 1 1;
+    border-bottom: 1px solid #8a8888;
+    margin: auto;
+}
+
+.aqua-color {
+    padding-top: 30px;
+}
+
+.aqua-color img {
+    width: 1500px;
+}
+
+.category-selector {
+    display: flex;
+    padding-top: 40px;
+}
+
+.eyeglass-selector {
+    padding-left: 125px;
+}
+
+.eyeglass {
+    height: 710px;
+}
+
+.computer-and-sunglasses {
+    padding-left: 15px;
+}
+
+.computer-sun-glass {
+    height: 350px;
+}
+
+#sunglass {
+    padding-top: 10px;
+}
+
+.category-selector-next {
+    padding-top: 1px;
+    display: flex;
+}
+
+.power-sun-glass-selector {
+    padding-left: 125px;
+    height: 350px;
+}
+
+.power-sun-glass {
+    height: 350px;
+    width: 610px;
+}
+
+.digi-hooper-selector {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.digi-hooper {
+    height: 350px;
+    width: 620px;
+}
+
+.ojos-wear {
+    padding-top: 20px;
+}
+
+.ojos-wear img {
+    width: 1245px;
+    padding-left: 125px;
+}
+
+#lense-solution {
+    padding-top: 20px;
+}
+
+.customer-service {
+    padding-top: 20px;
+    display: flex;
+    padding-left: 30px;
+}
+
+.by-whatsapp img {
+    height: 200px;
+    width: 700px;
+    padding-left: 10px;
+}
+
+.by-call img {
+    height: 200px;
+    width: 700px;
+}
+
+.try-near-you {
+    display: flex;
+    padding-left: 30px;
+}
+
+.home-try img {
+    height: 400px;
+    width: 700px;
+    padding-right: 4px;
+}
+
+.near-store img {
+    height: 400px;
+    width: 700px;
+    padding-left: 5px;
+}
+
+.our-brands {
+    padding-top: 20px;
+    width: 1500px;
+}
+
+.eye-glass-range {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.range-heading {
+    display: flex;
+    padding-right: 0px;
+}
+
+.view-range {
+    padding-left: 1280px;
+    display: block;
+}
+
+#power-blu-lense {
+    padding-left: 1088px;
+}
+
+#zero-blu-lense {
+    padding-left: 1040px;
+}
+
+#contact-lense {
+    padding-left: 1240px;
+}
+
+#color-contact-lense {
+    padding-left: 1190px;
+}
+
+#range-item-contact-lense {
+    padding-top: 40px;
+}
+
+.eyeglasses-range {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+.view-all-link {
+    text-decoration: none;
+    color: #329c92;
+}
+
+.range-items {
+    display: flex;
+    padding-left: 40px;
+}
+
+.range-items img {
+    padding-left: 75px;
+}
+
+.brand-banner {
+    padding-top: 30px;
+    width: 1510px;
+}
+
+.our-blog {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.brand-banner-blog {
+    padding-left: 140px;
+    height: 450px;
+    width: 1300px;
+}
+
+.happy-customers {
+    padding-top: 5px;
+    background-color: #fff092;
+    height: 400px;
+}
+
+.meet-happy-customers {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.youtube-playlist {
+    padding-top: 30px;
+    display: flex;
+}
+
+.youtube-video {
+    padding-left: 30px;
+}
+
+.review-video {
+    padding-left: 60px;
+}
+
+.footer {
+    height: 600px;
+    background-color: #000042;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.footer-heading {
+    font-family: lenskartsans-medium;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.3px;
+    color: #f4f4f4;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.footer-para-one {
+    padding-top: 20px;
+    font-family: lenskartsans-regular;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: #fcfcfc;
+    padding-left: 50px;
+}
+
+.footer-para-one p {
+    padding-top: 10px;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+}
+
+.span-color {
+    color: #329c92;
+}
+
+.footer-sections {
+    display: flex;
+    padding-top: 30px;
+}
+
+.sunglass-section h4 {
+    color: white;
+    padding-left: 0px;
+}
+
+.sunglass-section {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+#section-end {
+    color: white;
+}
+
+.selction-end-logo {
+    padding-left: 310px;
+}
+
+.section {
+    padding-bottom: 4px;
+    padding-left: 50px;
+}
+
+.footer-content {
+    padding-left: 50px;
+    display: flex;
+}
+
+.under-sunglass {
+    padding-top: 40px;
+    color: white;
+}
+
+.footer-content h5 {
+    padding-top: 20px;
+}
+
+.under-sun-glass-two {
+    padding-left: 200px;
+}
+
+.under-eyeglass {
+    padding-left: 75px;
+    padding-top: 40px;
+    color: white;
+}
+
+.under-contact-lense {
+    padding-top: 100px;
+    padding-left: 550px;
+}
+
+.playstore-logo,
+.appstore-logo {
+    padding-left: 10px;
+}
+
+.store-logos {
+    display: flex;
+}
+
+.first-part {
+    padding-left: 40px;
+    color: white;
+    padding-bottom: 1px;
+}
+
+.second-part {
+    color: white;
+    padding-top: 1px;
+}
+
+.footer-end {
+    padding-left: 50px;
+    padding-top: 30px;
+    width: 1428px;
+}
+
+.footer-end-content {
+    padding-top: 20px;
+    display: flex;
+    color: white;
+}
+
+.privacy,
+.disclimar {
+    padding-left: 30px;
+}
+
+.follow-us {
+    padding-left: 1010px;
+}
+
+.fb {
+    padding-left: 20px;
+}
+
+.insta {
+    padding-left: 20px;
+}
+
+.twitter {
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
